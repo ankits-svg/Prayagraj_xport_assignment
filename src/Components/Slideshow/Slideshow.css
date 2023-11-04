@@ -1,0 +1,42 @@
+.custom-slideshow {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .slideshow-container {
+    display: flex;
+    overflow: hidden;
+  }
+  
+  .slideshow-card {
+    width: 300px;
+    transition: transform 0.3s;
+    margin: 0 10px;
+    transform: scale(1);
+    cursor: pointer;
+  
+    img {
+      max-width: 100%;
+    }
+  
+    .card-details {
+      text-align: center;
+    }
+  }
+  
+  .slideshow-card.active {
+    transform: scale(1.1);
+  }
+  
+  .controls {
+    margin-top: 10px;
+  
+    button {
+      background: transparent;
+      border: none;
+      font-size: 24px;
+      cursor: pointer;
+    }
+  }
+  

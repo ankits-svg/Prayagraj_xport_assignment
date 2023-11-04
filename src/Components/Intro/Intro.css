@@ -1,0 +1,8 @@
+.Intro{
+    display: block;
+    text-align: center;
+    margin-top: 2%;
+}
+.Intro h1{
+    font-size: 50px;
+}
