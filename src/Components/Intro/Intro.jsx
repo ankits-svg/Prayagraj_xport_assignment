@@ -3,6 +3,7 @@ import './Intro.css'
 import gsap from "gsap";
 import SplitText from "gsap-trial/SplitText"
 import { ScrollTrigger } from "gsap/all";
+import { Button } from "@chakra-ui/react";
 
 
 const Intro = () => {
@@ -45,15 +46,15 @@ const Intro = () => {
 
   return (
     <div className="Intro">
-      <h3>WHO WE ARE</h3>
+      <h3>About us</h3>
       <h1 id="intro" ref={introRef}>
         Lorem ipsum dolor sit amet, consectetur adipisicing elit. Totam velit
         veniam quo. Omnis repellendus corrupti odit deserunt nemo quod, veniam
         ab tempore neque quae.
       </h1>
-      <button id="animate" ref={animateButtonRef}>
+      <Button id="animate" ref={animateButtonRef}>
         Animate
-      </button>
+      </Button>
     </div>
   );
 };
